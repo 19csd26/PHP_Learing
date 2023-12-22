@@ -1,4 +1,21 @@
 <?php
+/*
+Magic constants are the predefined constants in PHP which get changed on the basis of their use. 
+They start with double underscore (__) and ends with double underscore.
+They are similar to other predefined constants but as they change their values with the context, they are called magic constants.
+There are nine magic constants in PHP. In which eight magic constants start and end with double underscores (__).
+1.)__LINE__
+2.)__FILE__
+3.)__DIR__
+4.)__FUNCTION__
+5.)__CLASS__
+6.)__TRAIT__
+7.)__METHOD__
+8.)__NAMESPACE__
+9.)ClassName::class
+All of the constants are resolved at compile-time instead of run time, unlike the regular constant. Magic constants are case-insensitive.
+*/
+
     //ClassName::class
     namespace Technical_Portal;  
     echo "<h3>Example for CLASSNAME::CLASS </h3>";  
